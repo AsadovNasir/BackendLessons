@@ -1,0 +1,8 @@
+C:\Users\Admin\source\repos\SwitchCalculatorApp\SwitchCalculatorApp\bin\Debug\SwitchCalculatorApp.exe.config
+C:\Users\Admin\source\repos\SwitchCalculatorApp\SwitchCalculatorApp\bin\Debug\SwitchCalculatorApp.exe
+C:\Users\Admin\source\repos\SwitchCalculatorApp\SwitchCalculatorApp\bin\Debug\SwitchCalculatorApp.pdb
+C:\Users\Admin\source\repos\SwitchCalculatorApp\SwitchCalculatorApp\obj\Debug\SwitchCalculatorApp.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\SwitchCalculatorApp\SwitchCalculatorApp\obj\Debug\SwitchCalculatorApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\Admin\source\repos\SwitchCalculatorApp\SwitchCalculatorApp\obj\Debug\SwitchCalculatorApp.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\SwitchCalculatorApp\SwitchCalculatorApp\obj\Debug\SwitchCalculatorApp.exe
+C:\Users\Admin\source\repos\SwitchCalculatorApp\SwitchCalculatorApp\obj\Debug\SwitchCalculatorApp.pdb
