@@ -1,0 +1,19 @@
+--create database Company 
+--use Company
+--create table Customers(
+--Id int primary key identity,
+--[Name] nvarchar (50) not null,
+--Surname nvarchar (50) not null,
+--Salary int not null
+--)
+-- Dataları doldurmaq (INSERT)
+--insert into Customers([Name], Surname, Salary)
+--values
+--('John', 'Shimth', 2000),
+--('Bob', 'Jhson', 5500),
+--('Lili', 'Browns', 5500)
+
+--select * from Customers
+
+--Ortalama Maasi cixarmaq 
+--select avg (Salary) as AvarageSalary From Customers
