@@ -1,0 +1,30 @@
+SQLTASK
+--create database Academy 
+--use Academy
+--Student table-i
+--create table Student(
+--Id int primary key identity,
+--FullName nvarchar(50) not Null,
+--BirthDate DATE NOT NULL,
+--GroupNo INT NOT NULL,
+--Grade Int
+--)
+
+--insert into Student (FullName, BirthDate, GroupNo, Grade)
+--values
+--('Anar Kazimov', '2000-01-15', 101, 85),
+--('Receb Ceferov', '2000-08-09', 101, 74),
+--('Rauf Cavadov', '2001-11-25', 101, 77)
+--;
+
+--SELECT * FROM Student;
+
+--UPDATE EMELIYYATI--
+
+--update Student
+--set Grade = 90
+--where Id=1;
+
+--SILME EMELIYYATI--
+--delete from Student 
+--where Id=1;
