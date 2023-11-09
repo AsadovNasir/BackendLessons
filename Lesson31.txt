@@ -1,0 +1,69 @@
+--create database	Hotel
+--use Hotel
+
+----TABlE-ler--
+--create table RoomTypes (
+--    RoomTypeID int primary key identity,
+--    TypeName varchar(50) NOT NULL,
+--    Rate decimal (10,2) NOT NULL
+--);
+
+--create table Rooms (
+--    RoomID int primary key identity,
+--    RoomNumber INT NOT NULL,
+--    RoomTypeID INT,
+--    FOREIGN KEY (RoomTypeID) references RoomTypes(RoomTypeID)
+--);
+
+--create table Customers (
+--    CustomerID int primary key identity,
+--    FirstName varchar(50) NOT NULL,
+--    LastName varchar(50) NOT NULL,
+--    Email varchar(50) UNIQUE NOT NULL
+--);
+
+--create table Reservations (
+--    ReservationID int primary key identity,
+--    RoomID int,
+--    CustomerID int,
+--    CheckInDate date NOT NULL,
+--    CheckOutDate date NOT NULL,
+--    FOREIGN KEY (RoomID) references Rooms(RoomID),
+--    FOREIGN KEY (CustomerID) references Customers(CustomerID)
+--);
+
+--create table Payments (
+--    PaymentID int primary key identity,
+--    ReservationID int,
+--    Amount decimal(10,2) NOT NULL,
+--    PaymentDate date NOT NULL,
+--    FOREIGN KEY (ReservationID) references Reservations(ReservationID)
+--);
+
+--create table Spendings (
+--    SpendingID int primary key identity,
+--    ReservationID int,
+--    [Description] varchar(255) NOT NULL,
+--    Amount decimal(10,2) NOT NULL,
+--    SpendingDate date NOT NULL,
+--    FOREIGN KEY (ReservationID) references Reservations(ReservationID)
+--);
+
+
+--select * from RoomTypes;
+
+----Musterinin adini soyadini rezervasyasin gosteren query--
+--select Customers.FirstName, Customers.LastName, Reservations.*
+--from Customers
+--INNER JOIN Reservations on Customers.CustomerID = Reservations.CustomerID;
+
+---- Odenis qiymeti ve trixi gosteren query--
+--select Payments.Amount, Payments.PaymentDate
+--from Payments
+--INNER JOIN Reservations on Payments.ReservationID = Reservations.ReservationID;
+
+---- rezervasya ucun butun odenisleri gosteren query--
+--select Spendings.[Description], Spendings.Amount, Spendings.SpendingDate
+--from Spendings
+--INNER JOIN Reservations on Spendings.ReservationID = Reservations.ReservationID
+--where Reservations.ReservationID = 1;
